@@ -2,6 +2,7 @@
     body>div.main {
     padding: 0 15px !important;
 }
+
 body>div.main>form {
     margin-bottom: 50px !important;
 }
@@ -11,6 +12,7 @@ body div#footer {
 body div#footer div.left {
     justify-content: center !important;
 }
+
 }body {
     direction: ltr;
     display: flex;
