@@ -76,7 +76,7 @@ body>div.main>form>div.input-search>input:hover {
     border-color: rgba(223, 225, 229, 0);
 }
 body>div.main>form>div.input-search>input::placeholder {
-    color: #4285f4;
+    color: #5f697a;
 }
 body>div.main>form>div.input-search>input:focus {
     outline: none;
@@ -191,7 +191,7 @@ body div#footer {
     align-items: center;
 }
 body div#footer>div.left {
-    padding-left: 15px;
+    padding-left: 5px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -199,7 +199,7 @@ body div#footer>div.left p {
     color: #70757a;
     font-size: 12px;
     direction: ltr;
-    margin: 0;
+    margin-right : 10px ;
     font-family: arial, sans-serif;
 }
 body div#footer a.github {
@@ -212,10 +212,13 @@ body div#footer a.github>img {
 }
 body div#footer>div.right {
     padding-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
-body div#footer>div.right a {
+body div#footer>div.right a,p {
     color: #70757a;
     margin: 2px 10px 0;
+    direction: ltr;
     text-decoration: none;
     white-space: nowrap;
     font-size: 13px;
