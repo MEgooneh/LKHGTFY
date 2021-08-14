@@ -451,6 +451,7 @@ $(function () {
                 var key = $.getQueryString({id: "n"}) === 1 ? "play.nice" : "play.pwnage";
                 instruct(key);
                 button.focus();
+                document.getElementById("click-effect").play() ; 
                 setTimeout(redirect, 2000);
             });
         }
