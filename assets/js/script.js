@@ -1,6 +1,7 @@
 // disapearing loading mask
 $(window).load(function() {  document.getElementById("loading-mask").style.display = "none"; });
 //
+
 wside = (window.sidebar) ? true: false;
 var isOff = false;
 function mt_cm() {
