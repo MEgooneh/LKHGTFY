@@ -93,10 +93,8 @@ body>div.main>form>div.buttons-search {
     flex-wrap: wrap;
     margin: 30px 0 0 0;
 }
-body>div.main>form>div.buttons-search>div.button_wrapper:hover {
-    border-style: solid;
-    border-width: 5px;
-    
+body>div.main>form>div.buttons-search>div.button_wrapper>div.inner>input:hover {
+    border : 1px solid #cdcdcd;
 }
 body>div.main>form>div.buttons-search input[type=button] {
     background-image: -webkit-linear-gradient(top,  #f8f9fa,  #f8f9fa);
