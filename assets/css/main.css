@@ -26,6 +26,15 @@ body div#footer div.left {
     justify-content: space-between;
     overflow-y: auto;
 }
+body div#loading-mask{
+    position: fixed;
+    left: 0px; 
+    right: 0px; 
+    top: 0px; 
+    bottom: 0px; 
+    background-color: white;
+    z-index: 99;
+}
 body div#instructions {
     width: 100%;
     background-color: #f7f7f7;
@@ -87,9 +96,6 @@ body>div.main>form>div.input-search>img {
     position: absolute;
     left: 15px;
     width: 26px;
-}
-body>div.main>div.gif>img{
-    display: none;
 }
 body>div.main>form>div.buttons-search {
     display: flex;
