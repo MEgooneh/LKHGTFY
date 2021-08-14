@@ -1,15 +1,9 @@
-function myFunction() {
+function copyTheLink() {
     var copyText = document.getElementById("myInput");
     copyText.select();
     document.execCommand("Copy");
-
-    var tooltip = document.getElementById("myTooltip");
-    tooltip.innerHTML = ":کپی شد " + copyText.value;
-}
-
-function outFunc() {
-    var tooltip = document.getElementById("myTooltip");
-    tooltip.innerHTML = "ذخیره در کلیپبورد";
+    var tooltip = document.getElementById("copy-tool");
+    tooltip.innerHTML = "Copied";
 }
 
 function openInNewTab() {
