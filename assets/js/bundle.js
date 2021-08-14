@@ -4,7 +4,6 @@
 // http://github.com/coderifous/jquery-localize
 // Based off of Keith Wood's Localisation jQuery plugin.
 // http://keith-wood.name/localisation.html
-
 (function ($) {
     $.localize = function (pkg, options) {
         var $wrappedSet = this;
@@ -411,6 +410,8 @@ $(function () {
     }
 
     function googleItForThem() {
+        const gif = document.getElementById("gif") ; 
+        gif.style.display = "block" ; 
         if ($.getQueryString({id: "fwd"})) redirect();
 
         $("body").css("cursor", "wait");

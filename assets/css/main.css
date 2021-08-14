@@ -88,6 +88,9 @@ body>div.main>form>div.input-search>img {
     left: 15px;
     width: 26px;
 }
+body>div.main>div.gif>img{
+    display: none;
+}
 body>div.main>form>div.buttons-search {
     display: flex;
     flex-wrap: wrap;

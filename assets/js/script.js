@@ -3,6 +3,7 @@ var isOff = false;
 function mt_cm() {
     return false
 }
+
 function mt_md(e) {
     mac = navigator.userAgent.indexOf('Mac') != -1;
     if (document.all) {
@@ -42,6 +43,8 @@ function disdrag() {
         }
     }
 };
+
+
 disdrag();
 function mt_nls() {
     window.status = '';
