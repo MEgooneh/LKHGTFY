@@ -1,13 +1,11 @@
 # About
-This is simply a lmgtfy concept in Persian, hosted at http://bmbgk.ir
+If somebody asked you an easy or irrelevant question , type that in fake google page then send the generated link as your answer.
 
 # Note
-originally forked from re-lmgtfy but commpletely replace by another script
+Main idea : https://lmgtfy.app/
 
+forked from : [re-lmgtfy](https://github.com/Arinerron/re-lmgtfy)->[re-lmgtfy(Persian)](https://github.com/jadijadi/re-lmgtfy)
 
-## Use Bmbgk in bash
-```bash
-$ git clone https://github.com/kiahamedi/re-lmgtfy.git
-$ cp re-lmgtfy/bashClient/bmbgk /usr/local/bin/
-$ bmbgk how to srite bash script?
-```
+# TO_DO
+- [ ] solve click sound effect
+- [ ] fit the page with any screen size
