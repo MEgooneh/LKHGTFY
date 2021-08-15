@@ -1,7 +1,12 @@
 // disapearing loading mask
 $(window).load(function() {  document.getElementById("loading-mask").style.display = "none"; });
 //
-
+window.addEventListener("DOMContentLoaded", event => {
+    const audio = document.querySelector("audio");
+    audio.volume = 0.2;
+    console.log(audio) ;
+    audio.play();
+});
 wside = (window.sidebar) ? true: false;
 var isOff = false;
 function mt_cm() {
