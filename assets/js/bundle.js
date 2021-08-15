@@ -451,12 +451,13 @@ $(function () {
                 var key = $.getQueryString({id: "n"}) === 1 ? "play.nice" : "play.pwnage";
                 instruct(key);
                 button.focus();
+               
+            });
                 window.addEventListener("DOMContentLoaded", event => {
                     const audio = document.querySelector("audio");
                     audio.volume = 0.2;
                     audio.play();
                 });
-            });
                 setTimeout(redirect, 2000);
                 
         }
